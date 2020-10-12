@@ -1,0 +1,24 @@
+{
+  "name": "elementarybot",
+  "version": "1.0.0",
+  "description": "This is a simple bot of discord, created in discord.js",
+  "main": "src",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "fzbian",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "enmap": "^5.8.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
